@@ -8,7 +8,7 @@ This is a PHP library for finding Nikkara that is posted on Nico Nico Douga.
 ## Install
 ~~~~
 <?php
-    require_once '';
+    require_once 'nicokara-library.php';
     $nicokara = new nicokara();
 ~~~~
 
