@@ -1,3 +1,38 @@
-# nicokara-library
-ニコカラ検索API( https://api.nicoakra.net/search2 )をPHPで簡単に利用するためのPHPライブラリ
-## ニコカラ検索API
+nicokara-library.php
+====
+This is a PHP library for finding Nikkara that is posted on Nico Nico Douga.
+
+## Demo
+[Nicokara Search Site.](http://www.nicokara.net)
+
+## Install
+~~~~
+<?php
+    require_once '';
+    $nicokara = new nicokara();
+~~~~
+
+## Search
+~~~~
+<?php
+    $nicokara->set(
+        array(
+            'q' => 'search keywords',
+            'vocal' => 'onvocal',
+            'key' => '＋7',
+            'page' => '1'
+        )
+    );
+    $nicokara->search();
+~~~~
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[Yuichi Furutani](https://github.com/ryutsukai)
+
+
+While editing...
