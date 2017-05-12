@@ -1,12 +1,12 @@
 <?php
   class nicokara{
     function set($array){
-      //editing...
+      //検索オプション設定
     }
     function search(){
-      //editing...
+      //ニコカラ検索の実行
     }
     function watch($smid){
-      //editing...
+      //ニコカラ再生ページ用データ取得
     }
   }
