@@ -1,7 +1,14 @@
 <?php
-date_default_timezone_set('Asia/Tokyo');
+namespace NicokaraDotNet;
 
-class nicokara
+/**
+ * Class ApiClient
+ * @package NicokaraDotNet
+ */
+// @todo
+// とりま、元あった `nicokara-library.php` からコピペしただけ。
+// アクセサの省略とか、フィールドが `public` とか、いろいろ設計的にマズイので、直す。
+class ApiClient
 {
     public $search_option = array();
     public $search_information = array();

@@ -1,0 +1,25 @@
+{
+    "name": "nicokara-dot-net/nicokara-client",
+    "description": "nicokara.net API client",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NicokaraDotNet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
